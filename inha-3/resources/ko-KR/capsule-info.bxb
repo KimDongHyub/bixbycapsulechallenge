@@ -1,0 +1,15 @@
+description {
+  displayName (주파수 훈련기)
+  companyName (김재명,김동협,설승환,최정호,최진영)
+  iconUrl (/images/icon.jpg)
+  description ("주파수별로 강아지 및 고양이의 행동을 훈련시키는 캡슐입니다.")
+  search-keywords {
+    keyword(강아지훈련)
+    keyword(고양이훈련)
+    keyword(주파수훈련)
+  }
+  dispatch-name(주파수 훈련기)
+  dispatch-aliases {
+    alias(주파수별 동물 훈련기)
+  }
+}
