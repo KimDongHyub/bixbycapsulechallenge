@@ -1,0 +1,10 @@
+result-view {
+  
+  match: Result(this)
+
+  message {
+    template ("주파수를 출력합니다. 훈련을 시작해주세요"){
+      speech ("주파수를 출력합니다. 훈련을 시작해주세요")
+    }
+  }
+}

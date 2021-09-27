@@ -1,0 +1,14 @@
+action (GetData) {
+  type(Search)
+  collect {
+    input (name) {
+      type (Name)
+      min (Required) max (One)
+    }
+    input (state) {
+      type (State)
+      min (Required) max (One)
+   }
+  }
+  output (Data)
+}

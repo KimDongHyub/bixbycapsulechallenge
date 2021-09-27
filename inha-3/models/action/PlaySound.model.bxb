@@ -1,0 +1,28 @@
+action (PlaySound) {
+  type (Search)
+  collect {
+
+    input (soundToPlay) {
+      type (audioPlayer.AudioInfo)
+      min (Required) max (One)
+      default-init {
+        intent {
+          goal: BuildAudioInfo
+        }
+      }
+      hidden
+    }
+
+    computed-input (play) {
+      type (audioPlayer.Result)
+      compute {
+        intent {
+          goal: audioPlayer.PlayAudio
+          value: $expr(soundToPlay)
+        }
+      }
+      hidden
+    }
+  }
+  output (Result)
+}

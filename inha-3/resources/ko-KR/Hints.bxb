@@ -1,0 +1,18 @@
+hints {
+  uncategorized {
+    utterance (강아지 앉아 훈련 시작해줘)
+    utterance (강아지 일어나 훈련 시작해줘)
+    utterance (강아지 엎드려 훈련 시작해줘)
+    utterance (강아지 기다려 훈련 시작해줘)
+    utterance (강아지 이리와 훈련 시작해줘)
+    utterance (강아지 짖지마 훈련 시작해줘)
+    utterance (강아지 손내밀어 훈련 시작해줘)
+    utterance (고양이 앉아 훈련 시작해줘)
+    utterance (고양이 일어나 훈련 시작해줘)
+    utterance (고양이 엎드려 훈련 시작해줘)
+    utterance (고양이 기다려 훈련 시작해줘)
+    utterance (고양이 이리와 훈련 시작해줘)
+    utterance (고양이 짖지마 훈련 시작해줘)
+    utterance (고양이 손내밀어 훈련 시작해줘)
+  }
+}

@@ -1,0 +1,10 @@
+action (BuildAudioInfo) {
+  type (Search)
+  collect {
+    input (data) {
+      type (Data)
+      min (Required) max (One)
+    }
+  }
+  output (audioPlayer.AudioInfo)
+}

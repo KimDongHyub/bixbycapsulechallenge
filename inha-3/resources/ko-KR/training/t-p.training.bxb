@@ -1,0 +1,5 @@
+train (t-pll35l68gilpv9mqz4aecda5n) {
+  utterance ("[g:PlaySound] (고양이)[v:Name:cat] (울지마)[v:State:bark] 훈련시작해줘")
+  plan (XYvNCsIwEIRHa9WzP3jQZ8g7VATxImKfYEtWDMSk1A3YtzfpQY0LCzPfzGCOlXF3Ui2LdGScuvIzWMEmpxdLfe2D09g25tX0ioI2PlHuVJX0yd08dvlqH4zV33SRpwcSwjpnR5YB/1XP9GAsc1YLCWOGEcYoMEGJaXT48WXU+Hy6Iqqh9QY=)
+  last-modified (1561192292529)
+}

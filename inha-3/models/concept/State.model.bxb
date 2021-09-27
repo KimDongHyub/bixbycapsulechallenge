@@ -1,0 +1,9 @@
+enum (State) {
+  symbol (sit)
+  symbol (rise)
+  symbol (kneel)
+  symbol (wait)
+  symbol (come)
+  symbol (bark)
+  symbol (hand)
+}

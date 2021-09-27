@@ -1,0 +1,12 @@
+structure (Data) {
+  property (name) {
+    type (Name)
+    min (Required) max (One)
+  }
+  
+  property (state) {
+    type (State)
+    min (Required) max (One)
+  }
+
+}

@@ -1,0 +1,28 @@
+capsule {
+  id (inha.pettrain)
+  version (1.0.4)
+  format (3)
+  targets {
+    target (bixby-mobile-ko-KR)
+    target (bixby-mobile-en-US) {enabled (false)}
+  }
+  runtime-flags {
+    no-fallback-to-result-collections
+    modern-prompt-rejection
+    concepts-inherit-super-type-features
+    support-halt-effect-in-computed-inputs 
+  }
+  store-sections {
+    section (Communication)
+    section (ArtAndLifestyle)
+    section (MusicAndAudio)
+  }
+  
+  capsule-imports {
+    import (viv.core){ as (core) }
+    import (viv.entity) { version(3.18.11) as (entity)  }
+    import (viv.common) { as (common) version-from (entity) }
+    import (bixby.audioPlayer) { as (audioPlayer) version (0.3.6) }
+  }
+
+}

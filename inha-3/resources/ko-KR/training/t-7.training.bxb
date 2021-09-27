@@ -1,0 +1,5 @@
+train (t-77h00jc7dgngc8khjfi9orwpv) {
+  utterance ("[g:PlaySound] (강아지)[v:Name:dog] (손내밀어)[v:State:hand] 훈련 시작해줘")
+  plan (XYvNCsIwEIRHa9WzP3jQZ8g7VATxImKfYEtWDMSk1A3YtzfpQY0LCzPfzGCOlXF3Ui2LdGScuvIzWMEmpxdLfe2D09g25tX0ioI2PlHuVJX0yd08dvlqH4zV33SRpwcSwjpnR5YB/1XP9GAsc1YLCWOGEcYoMEGJaXT48WXU+Hy6Iqqh9QY=)
+  last-modified (1561190168183)
+}

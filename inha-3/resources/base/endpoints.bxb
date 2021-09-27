@@ -1,0 +1,17 @@
+endpoints {
+  action-endpoints {
+    action-endpoint (GetData) {
+      accepted-inputs (name,state)
+      local-endpoint (GetData.js)
+    }
+
+    action-endpoint (PlaySound) {
+      local-endpoint (PlaySound.js)
+    }
+    action-endpoint (BuildAudioInfo) {
+      accepted-inputs (data)
+      local-endpoint (BuildAudioInfo.js)
+    }
+   }
+ }
+
